@@ -218,7 +218,7 @@ else if(gameState == "bullet"){
 function enemy(){
   if(frameCount%50===0){
 
-    tiger = createSprite(random(1000,1100),random(100,500),40,40)
+    tiger = createSprite(random(1400,1600),random(100,500),40,40)
 
     tiger.addImage(tigerImg)
     tiger.scale = 0.15
